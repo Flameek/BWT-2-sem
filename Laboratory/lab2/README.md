@@ -102,8 +102,8 @@ ORDER BY avg_salary DESC;
 ```
 SELECT 
     shop_id,
-    MIN(salary) AS min_salary,   -- минимальная зарплата в магазине
-    MAX(salary) AS max_salary    -- максимальная зарплата в магазине
+    MIN(salary) AS min_salary,   
+    MAX(salary) AS max_salary    
 FROM worker
 GROUP BY shop_id;
 ```
