@@ -1,4 +1,16 @@
+[200~# Virtual environments
 venv/
-.venv
 .venv/
-venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
